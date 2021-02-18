@@ -1,6 +1,5 @@
 
 import java.util.Arrays;
-import java.util.Random;
 import java.util.Scanner;
 
 
@@ -58,9 +57,7 @@ public class hm1 {
     }
 
     public static int generateRandom(int min, int max) {
-        int d = max - min;
-        Random random = new Random();
-        int i = random.nextInt(d + 1);
+        int i = (int)(Math.random() * (max - min + 1) + min);
 
         return i;
     }
