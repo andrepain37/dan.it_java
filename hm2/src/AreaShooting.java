@@ -20,12 +20,6 @@ public class AreaShooting {
         int[][] missing = new int[ROWS][COLS];
         int[][] hits = new int[ROWS][COLS];
 
-        System.out.println(Arrays.toString(corrects[0]));
-        System.out.println(Arrays.toString(corrects[1]));
-        System.out.println(Arrays.toString(corrects[2]));
-        System.out.println(Arrays.toString(corrects[3]));
-        System.out.println(Arrays.toString(corrects[4]));
-
 
         boolean isWin = false;
 
