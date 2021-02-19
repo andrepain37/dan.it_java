@@ -14,7 +14,7 @@ public class AreaShooting {
         int count = 3;
 
 
-        int[][] corrects = new int[ROWS - 1][COLS - 1];
+        int[][] corrects = new int[ROWS][COLS];
         generateRandomArray(corrects, count);
 
         int[][] missing = new int[ROWS][COLS];
