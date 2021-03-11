@@ -5,21 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="609b4634-0be7-4118-bc70-c11713f7f1f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hm7/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm7/src/main/java/main/DayOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm7/src/main/java/main/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm7/src/main/java/main/DomesticCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm7/src/main/java/main/Family.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm7/src/main/java/main/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm7/src/main/java/main/Foul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm7/src/main/java/main/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm7/src/main/java/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm7/src/main/java/main/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm7/src/main/java/main/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm7/src/main/java/main/RoboCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm7/src/main/java/main/Species.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm7/src/main/java/main/Woman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm7/src/test/java/test/FamilyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm5/fs13classes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm8/hm8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm8/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm8/src/main/java/DayOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm8/src/main/java/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm8/src/main/java/DomesticCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm8/src/main/java/Family.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm8/src/main/java/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm8/src/main/java/Foul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm8/src/main/java/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm8/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm8/src/main/java/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm8/src/main/java/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm8/src/main/java/RoboCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm8/src/main/java/Species.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm8/src/main/java/Woman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm8/src/test/java/FamilyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm2/src/AreaShooting.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm2/src/AreaShooting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm7/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/hm7/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm7/src/main/java/main/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm7/src/main/java/main/Family.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +47,39 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="hm8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -50,10 +91,22 @@
       <updated>1614540272523</updated>
       <workItem from="1614540273695" duration="83000" />
       <workItem from="1614764531537" duration="5000" />
+      <workItem from="1614961872604" duration="1675000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

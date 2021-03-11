@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/dan.it_java.iml" filepath="$PROJECT_DIR$/.idea/dan.it_java.iml" />
       <module fileurl="file://$PROJECT_DIR$/hm5/fs13classes.iml" filepath="$PROJECT_DIR$/hm5/fs13classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hm8/hm8.iml" filepath="$PROJECT_DIR$/hm8/hm8.iml" />
     </modules>
   </component>
 </project>

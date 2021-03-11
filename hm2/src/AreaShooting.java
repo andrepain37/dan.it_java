@@ -25,14 +25,14 @@ public class AreaShooting {
 
         System.out.println("All set. Get ready to rumble!");
 
-        do{
+        do {
 
 
             System.out.println("Enter row:");
 
             int currentRow = scanner.nextInt();
 
-            if(currentRow <= 0 || currentRow >= ROWS){
+            if (currentRow <= 0 || currentRow >= ROWS) {
                 System.out.println("You have to enter a number of row in the range from 1 to 5!!!");
                 continue;
             }
@@ -41,7 +41,7 @@ public class AreaShooting {
 
             int currentCol = scanner.nextInt();
 
-            if(currentCol <= 0 || currentCol >= COLS){
+            if (currentCol <= 0 || currentCol >= COLS) {
                 System.out.println("You have to enter a number of column in the range from 1 to 5!!!");
                 continue;
             }
@@ -49,32 +49,31 @@ public class AreaShooting {
             int[][] a = new int[ROWS][COLS];
 
 
-
             for (int y = 0; y < ROWS; y++) {
                 for (int x = 0; x < COLS; x++) {
-                    if (y == 0){
+                    if (y == 0) {
                         a[y][x] = x;
-                    }else if(x == 0){
+                    } else if (x == 0) {
                         a[y][x] = y;
-                    }else{
-                        if (missing[y][x] == 1){
+                    } else {
+                        if (missing[y][x] == 1) {
                             a[y][x] = -2;
-                        }else if(hits[y][x] == 1) {
+                        } else if (hits[y][x] == 1) {
                             a[y][x] = -3;
-                        }else if(currentRow == y && currentCol == x){
-                            if (corrects[currentRow][currentCol] == 1){
+                        } else if (currentRow == y && currentCol == x) {
+                            if (corrects[currentRow][currentCol] == 1) {
                                 a[y][x] = -3;
                                 hits[y][x] = 1;
                                 hitsCount = hitsCount + 1;
-                                if (hitsCount == count){
+                                if (hitsCount == count) {
                                     isWin = true;
                                 }
 
-                            }else {
+                            } else {
                                 missing[y][x] = 1;
                                 a[y][x] = -2;
                             }
-                        }else {
+                        } else {
                             a[y][x] = -1;
                         }
                     }
@@ -82,23 +81,20 @@ public class AreaShooting {
             }
 
 
-
-
             for (int i = 0; i < ROWS; i++) {
                 System.out.println(arrayToStringWithFilter(a[i]));
             }
 
 
-            if (isWin){
+            if (isWin) {
                 System.out.println("You have won!");
             }
-
 
 
             System.out.println("-------------------");
 
         }
-        while(!isWin);
+        while (!isWin);
 
     }
 
@@ -106,7 +102,7 @@ public class AreaShooting {
     public static String arrayToStringWithFilter(int[] a) {
         StringJoiner sj = new StringJoiner(" | ");
 
-        for (int x: a) {
+        for (int x : a) {
 
             sj.add(x >= 0 ? String.format("%d", x) : checkPiece(x));
         }
@@ -116,9 +112,9 @@ public class AreaShooting {
     public static String checkPiece(int x) {
 
         String piece = "-";
-        if (x == -2){
+        if (x == -2) {
             piece = "*";
-        }else if(x == -3){
+        } else if (x == -3) {
             piece = "X";
         }
 
@@ -126,16 +122,16 @@ public class AreaShooting {
     }
 
     public static int[] addToArray(int[] arr, int el) {
-        int[] result = Arrays.copyOf(arr, arr.length +1);
+        int[] result = Arrays.copyOf(arr, arr.length + 1);
         result[arr.length] = el;
         return result;
     }
 
     public static boolean inArray(int[] arr, int a) {
 
-        for (int el: arr){
-            if (el == a){
-               return true;
+        for (int el : arr) {
+            if (el == a) {
+                return true;
             }
         }
         return false;
@@ -143,7 +139,7 @@ public class AreaShooting {
 
     public static int generateRandom(int min, int max) {
 
-        int i = (int)(Math.random() * (max - min + 1) + min);
+        int i = (int) (Math.random() * (max - min + 1) + min);
 
         return i;
     }
@@ -158,19 +154,18 @@ public class AreaShooting {
 
         arr[correctRow][correctCol] = 1;
 
-        for (int i = 1; i < count; i++){
+        for (int i = 1; i < count; i++) {
 
-            if (correctRow - minus > 0 && correctRow - minus < arr.length){
+            if (correctRow - minus > 0 && correctRow - minus < arr.length) {
                 arr[correctRow - minus][correctCol] = 1;
                 minus++;
-            } else if(correctRow + plus < arr.length){
+            } else if (correctRow + plus < arr.length) {
                 arr[correctRow + plus][correctCol] = 1;
                 plus++;
             }
 
         }
     }
-
 
 
 }

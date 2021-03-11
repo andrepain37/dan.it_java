@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fs13classes" />
+        <module name="hm8" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="fs13classes" target="1.5" />
+      <module name="hm8" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>

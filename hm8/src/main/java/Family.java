@@ -1,5 +1,3 @@
-package main;
-
 import java.util.*;
 
 public class Family {
@@ -12,8 +10,11 @@ public class Family {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+
         Family family = (Family) o;
-        return Objects.equals(children, family.children);
+
+        if (!mother.equals(family.mother)) return false;
+        return father.equals(family.father);
     }
 
     @Override
@@ -25,6 +26,7 @@ public class Family {
     protected void finalize() {
         System.out.println(toString());
     }
+
 
 
     @Override
@@ -82,20 +84,20 @@ public class Family {
         this.pet = pet;
     }
 
-    public void addChild(Human child) {
+    public void addChild(Human child){
         this.children.add(child);
     }
 
-    public boolean deleteChild(int i) {
+    public boolean deleteChild(int i){
         try {
             this.children.remove(i);
             return true;
-        } catch (IndexOutOfBoundsException e) {
+        }catch (IndexOutOfBoundsException e){
             return false;
         }
     }
 
-    public int countFamily() {
+    public int countFamily(){
         return this.children.size() + 2;
     }
 
